@@ -1,5 +1,6 @@
 #include <cstdio>
 #include <iostream>
+#include <string>
 #include <sstream>
 #include <algorithm>
 #include <deque>
@@ -40,6 +41,9 @@ string simplifyPath(string path) {
 }
 
 int main() {
-	cout << simplifyPath("/..") << endl;
+	string line;
+	while( cin >> line ) {
+		cout << simplifyPath(line) << endl;
+	}
 	return 0;
 }
