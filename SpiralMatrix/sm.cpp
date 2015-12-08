@@ -67,8 +67,8 @@ void caller(int n) {
 }
 
 int main() {
-	caller(3);
-	caller(4);
-	caller(5);
+	int n;
+	cin >> n;
+	caller(n);
 	return 0;
 }
