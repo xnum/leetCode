@@ -20,7 +20,7 @@ string convertToTitle(int n) {
 
 int main() {
 	int n;
-	while( cout << "Give me number:" , cin >> n )
+	while( cin >> n )
 		cout << convertToTitle(n) << endl;
 	return 0;
 }
